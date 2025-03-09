@@ -6,5 +6,3 @@
         name: apache2
         state: present
       become: yes
-      update_cache: yes
-      ignore_errors: yes
